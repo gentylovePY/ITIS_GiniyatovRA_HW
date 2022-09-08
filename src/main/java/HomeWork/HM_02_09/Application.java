@@ -9,6 +9,7 @@ public class Application {
      //   httpClient.post("https://gorest.co.in/","public/v1/users","{\"name\":\"Teeenali Dre\", \"gender\":\"male\", \"email\":\"tenali.frakmakrishna22@mail.com\", \"status\":\"active\"}");
         httpClient.head("https://google.com");
         httpClient.put("http://dummy.restapiexample.com/api/v1/update/4710");
+        httpClient.delete("https://jsonplaceholder.typicode.com/posts/1");
 
 
     }

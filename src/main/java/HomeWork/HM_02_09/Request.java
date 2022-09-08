@@ -10,7 +10,7 @@ public interface Request {
 
     public void put(String url) throws InterruptedException;
 
-    public void delete(String Url);
+    public void delete(String url);
 
 
 }

@@ -116,12 +116,27 @@ public class HttpClients implements  Request{
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-
     }
 
     @Override
-    public void delete(String Url) {
+    public void delete (String url) {
+
+        try {
+            URL urll = new URL(url);
+            HttpURLConnection connect = (HttpURLConnection) urll.openConnection();
+            connect.setDoOutput(true);
+            connect.setRequestProperty(
+                    "Content-Type", "application/x-www-form-urlencoded" );
+            connect.setRequestMethod("DELETE");
+            connect.connect();
+
+            System.out.println(connect.getResponseCode());
+
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 
