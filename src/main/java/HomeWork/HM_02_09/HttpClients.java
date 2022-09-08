@@ -120,7 +120,6 @@ public class HttpClients implements  Request{
 
     @Override
     public void delete (String url) {
-
         try {
             URL urll = new URL(url);
             HttpURLConnection connect = (HttpURLConnection) urll.openConnection();

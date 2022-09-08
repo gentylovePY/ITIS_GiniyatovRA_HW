@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d960dd0d-0bc0-48c6-8284-378125598f65" name="Changes" comment="add get post put head request">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWork/HM_02_09/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_02_09/Application.java" afterDir="false" />
+    <list default="true" id="d960dd0d-0bc0-48c6-8284-378125598f65" name="Changes" comment="add delete">
       <change beforePath="$PROJECT_DIR$/src/main/java/HomeWork/HM_02_09/HttpClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_02_09/HttpClients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWork/HM_02_09/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_02_09/Request.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662467527821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add delete">
+      <created>1662664619938</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662664619938</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +120,7 @@
     <MESSAGE value="d" />
     <MESSAGE value="ds" />
     <MESSAGE value="add get post put head request" />
-    <option name="LAST_COMMIT_MESSAGE" value="add get post put head request" />
+    <MESSAGE value="add delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="add delete" />
   </component>
 </project>
