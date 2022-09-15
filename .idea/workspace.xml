@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GiniyatovRA_HomeWork:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d960dd0d-0bc0-48c6-8284-378125598f65" name="Changes" comment="add maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassWork/CW_09_09/Server/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d960dd0d-0bc0-48c6-8284-378125598f65" name="Changes" comment="add tomcat server">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_09_09/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_09_09/GetPostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_09_09/HttpClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClassWork/CW_09_09/Server/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClassWork/CW_09_09/Server/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +38,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -49,7 +57,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/romanginiatov/IdeaProjects/ITIS_GiniyatovRA/src/main",
+    "last_opened_file_path": "/Users/romanginiatov/IdeaProjects/ITIS_GiniyatovRA/src/main/webapp",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -57,9 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/java/HomeWork/HM_02_09" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/HomeWork/HM_09_09" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.HelloServer">
@@ -76,17 +87,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="form.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ITIS_GiniyatovRA/GiniyatovRA_HomeWork/src/main/webapp/WEB-INF/form.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/WEB-INF/index.html">
+      <method v="2" />
     </configuration>
     <configuration name="HelloServer" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -177,10 +182,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
+      <item itemvalue="JavaScript Debug.form.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Tomcat Server.HelloServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.form.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -193,7 +202,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662466343618</updated>
-      <workItem from="1662709921486" duration="2007000" />
+      <workItem from="1662709921486" duration="4236000" />
+      <workItem from="1662828356185" duration="15000" />
+      <workItem from="1662928098220" duration="2431000" />
+      <workItem from="1662979615589" duration="636000" />
+      <workItem from="1663180329540" duration="9756000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1662467241645</created>
@@ -230,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662710097893</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add tomcat server">
+      <created>1662712183563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662712183563</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +273,7 @@
     <MESSAGE value="add get post put head request" />
     <MESSAGE value="add delete" />
     <MESSAGE value="add maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="add maven" />
+    <MESSAGE value="add tomcat server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tomcat server" />
   </component>
 </project>

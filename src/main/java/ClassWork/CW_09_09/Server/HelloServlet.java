@@ -9,13 +9,21 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 
-@WebServlet(name = "helloServlet", urlPatterns = "/hello")
-public class HelloServlet  extends HttpServlet {
+@WebServlet(name = "helloServlets", urlPatterns = "/hi")
 
+public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        /*
+        check
+        http://localhost:8080/hello?name=2&lastname=3
+         */
         PrintWriter writer = resp.getWriter();
-        writer.println("hello");
-        writer.println("test");
+
+
+
+        writer.println(req+" "+resp);
     }
+
+
 }
