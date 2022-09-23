@@ -9,14 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d960dd0d-0bc0-48c6-8284-378125598f65" name="Changes" comment="add tomcat server">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_09_09/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_09_09/GetPostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_09_09/HttpClients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/form.html" afterDir="false" />
+    <list default="true" id="d960dd0d-0bc0-48c6-8284-378125598f65" name="Changes" comment="HM_09_09 add get post request with inteface. &#10;add server with doGet and doPost method">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassWork/CW_23_09/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassWork/CW_23_09/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_23_09/server/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/base.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginDate.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/users.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/usersInfo.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClassWork/CW_09_09/Server/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClassWork/CW_09_09/Server/HelloServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,13 +73,21 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java/ClassWork/CW_23_09" />
+      <recent name="$PROJECT_DIR$/src/main/java/HomeWork/HM_23_09/server" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/java/HomeWork/HM_09_09" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="HomeWork.HM_23_09.server" />
+      <recent name="HomeWork.HM_23_09" />
+      <recent name="HomeWork.HM_09_09.Server" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.HelloServer">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.65">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork.HM_02_09.Application" />
       <module name="GiniyatovRA_HomeWork" />
@@ -98,7 +112,7 @@
       <deployment>
         <artifact name="GiniyatovRA_HomeWork:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/GiniyatovRA_HomeWork_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -180,11 +194,99 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="GiniyatovRA_HomeWork:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="2168c68c-6f95-40e1-88bf-378559a8fd31" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55630" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="GiniyatovRA_HomeWork:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Application" />
       <item itemvalue="JavaScript Debug.form.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Tomcat Server.HelloServer" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.65" />
     </list>
     <recent_temporary>
       <list>
@@ -206,7 +308,15 @@
       <workItem from="1662828356185" duration="15000" />
       <workItem from="1662928098220" duration="2431000" />
       <workItem from="1662979615589" duration="636000" />
-      <workItem from="1663180329540" duration="9756000" />
+      <workItem from="1663180329540" duration="10124000" />
+      <workItem from="1663411441847" duration="52000" />
+      <workItem from="1663411502989" duration="19000" />
+      <workItem from="1663411535237" duration="16154000" />
+      <workItem from="1663445615759" duration="221000" />
+      <workItem from="1663445878396" duration="27000" />
+      <workItem from="1663654025053" duration="603000" />
+      <workItem from="1663874035040" duration="2327000" />
+      <workItem from="1663937807685" duration="10753000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1662467241645</created>
@@ -250,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662712183563</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HM_09_09 add get post request with inteface. &#10;add server with doGet and doPost method">
+      <created>1663267794047</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663267794047</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +391,7 @@
     <MESSAGE value="add delete" />
     <MESSAGE value="add maven" />
     <MESSAGE value="add tomcat server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tomcat server" />
+    <MESSAGE value="HM_09_09 add get post request with inteface. &#10;add server with doGet and doPost method" />
+    <option name="LAST_COMMIT_MESSAGE" value="HM_09_09 add get post request with inteface. &#10;add server with doGet and doPost method" />
   </component>
 </project>
