@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d960dd0d-0bc0-48c6-8284-378125598f65" name="Changes" comment="HM_09_09 add get post request with inteface. &#10;add server with doGet and doPost method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_25_11/GameStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_25_11/Orientation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d960dd0d-0bc0-48c6-8284-378125598f65" name="Changes" comment="hw 25.11 змейка">
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWork/HM_25_11/GameStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWork/HM_25_11/GameStart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +322,7 @@
       <workItem from="1663874035040" duration="2327000" />
       <workItem from="1663937807685" duration="10753000" />
       <workItem from="1666356054684" duration="111000" />
-      <workItem from="1669365910619" duration="13321000" />
+      <workItem from="1669365910619" duration="13700000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1662467241645</created>
@@ -376,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663267794047</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hw 25.11 змейка">
+      <created>1669382911920</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669382911921</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +405,7 @@
     <MESSAGE value="add maven" />
     <MESSAGE value="add tomcat server" />
     <MESSAGE value="HM_09_09 add get post request with inteface. &#10;add server with doGet and doPost method" />
-    <option name="LAST_COMMIT_MESSAGE" value="HM_09_09 add get post request with inteface. &#10;add server with doGet and doPost method" />
+    <MESSAGE value="hw 25.11 змейка" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 25.11 змейка" />
   </component>
 </project>

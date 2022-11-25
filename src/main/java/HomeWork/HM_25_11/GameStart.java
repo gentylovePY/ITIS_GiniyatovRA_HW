@@ -2,6 +2,7 @@ package HomeWork.HM_25_11;
 
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
@@ -125,7 +126,7 @@ public class GameStart extends Application {
                 changes();
                 root.getChildren().remove(circle);
                 newCircle();
-                if (score == 15){
+                if (score == 16){
                     gameOver();
                 }
             }
@@ -133,10 +134,11 @@ public class GameStart extends Application {
 
     };
 
-    public void newRectangle(){
+    public Node newRectangle(){
         rectangle = new Rectangle((int) 300.0d, (int) 300.0d, (int) 20.0d, (int) 20.0d);
         root.getChildren().add(rectangle);
 
+        return null;
     }
     private   void fieldRestriction(){
         if (rectangle.getX()<0){
@@ -159,7 +161,7 @@ public class GameStart extends Application {
     private void gameOver(){
         text.setText("Победа, вы набрали 10 очков");
         root.getChildren().remove(rectangle);
-        root.getChildren().add(rectangle);
+        root.getChildren().add(newRectangle());
         score = 0;
     }
 
